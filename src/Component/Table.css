@@ -1,0 +1,11 @@
+.tab,tr,th,td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2rem;
+}
+.tab{
+    margin: 0 auto;
+    width: 40vw;
+    background-color: rgb(183, 215, 211);
+
+}

@@ -1,0 +1,80 @@
+.editdiv{
+    width: 50vw;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+.editdiv input{
+    width: 20vw;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 18px;
+}
+.editdiv button{
+    width: 10vw;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+
+}
+.students button{
+    width: 10vw;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.addstudents{
+    width: 50vw;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.addstudents input{
+    width: 20vw;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 18px;
+}
+.addstudents button{
+    width: 10vw;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+
+}

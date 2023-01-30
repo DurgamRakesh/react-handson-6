@@ -1,0 +1,10 @@
+.h1-t{
+    color:white;
+    font-size: 3rem;
+    margin-top:100px;
+    text-shadow: 2px 3px black;
+}
+.c a{
+    font-size: 2rem;
+    font-weight: bold;
+}
