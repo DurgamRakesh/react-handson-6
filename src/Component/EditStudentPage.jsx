@@ -26,6 +26,9 @@ const EditStudentPage = () => {
     })
     navigate('/Component/Students')
   }
+  const Canfun = () => {
+    navigate('/Component/Students')
+  }
   return (
     <div className='editdiv'>
       <input type="text" onChange={ChangeHandle} name='name' placeholder={context.ents[index].name} />
@@ -34,7 +37,8 @@ const EditStudentPage = () => {
       <input type="text" onChange={ChangeHandle} name='course' placeholder={context.ents[index].course} />
       <input type="text" onChange={ChangeHandle} name='batch' placeholder={context.ents[index].batch} />
       <br />
-      <button onClick={Update}>Update</button>
+      <button className='updatebtn' onClick={Update}>Update</button>
+      <button className='cbtn' onClick={Canfun}>Cancel</button>
     </div>
   )
 }
