@@ -33,3 +33,6 @@
 div {
     overflow-y: scroll;
 }
+div::-webkit-scrollbar{
+    display: none;
+}
